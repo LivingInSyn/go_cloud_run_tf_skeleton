@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///Users/jeremy.mill/Documents/personal/go_cloud_run_tf_skeleton/.github/workflows/deploy.yaml"
+    }
+}
