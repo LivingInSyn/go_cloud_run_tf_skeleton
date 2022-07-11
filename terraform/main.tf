@@ -32,6 +32,10 @@ variable "identity_pool_name" {
   type    = string
   default = "cloud-run-id-pool"
 }
+variable "github_org_name" {
+  type    = string
+  default = "livinginsyn"
+}
 variable "repository_name" {
   type    = string
   default = "some-repo-name"

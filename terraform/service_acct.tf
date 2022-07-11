@@ -57,6 +57,6 @@ resource "google_service_account_iam_binding" "publisher" {
   service_account_id = google_service_account.cr-sa.id
   role               = "roles/iam.workloadIdentityUser"
   members = [
-    "principalSet://iam.googleapis.com/projects/${data.google_project.project.number}/locations/global/workloadIdentityPools/${google_iam_workload_identity_pool.id-pool.workload_identity_pool_id}/attribute.repository/puppetlabs/${var.repository_name}"
+    "principalSet://iam.googleapis.com/projects/${data.google_project.project.number}/locations/global/workloadIdentityPools/${google_iam_workload_identity_pool.id-pool.workload_identity_pool_id}/attribute.repository/${var.github_org_name}/${var.repository_name}"
   ]
 }

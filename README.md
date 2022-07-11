@@ -5,6 +5,7 @@
     * update  `container_bucket_name` to the name of the bucket storing your container images
         * e.g. `artifacts.some-project-23498.appspot.com`
     * update `service_account_name` to a more descriptive service account name
+    * update `github_org_name` to the name of your github org, or github username
     * update `identity_pool_name` to a more descriptive name
     * update `repository_name` to the name of your github repository
     * update `cr_service_name` to the name you want for your cloud run service
